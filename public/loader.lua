@@ -6,7 +6,7 @@ end
 task.wait(math.random())
 
 local games = {
-    [10611639] = "https://load.bocchireworked.xyz/games/aa.lua",
+    [10611639] = "https://load.bocchireworked.xyz/games/aa.lua", -- AA
 }
 
 local loader = games[game.CreatorId]
