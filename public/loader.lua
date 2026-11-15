@@ -20,11 +20,20 @@ local _0x72f = {
     [1537690962] = "https://load.bocchireworked.xyz/games/bss.lua",
 }
 
-local _0x83d = _0x72f[_0xG6e.CreatorId]
+local _0x83d = _0x72f[_0xG6e.PlaceId]
+    or _0x72f[_0xG6e.CreatorId]
 
 if _0x83d then
-    _0xD4a(_0xG6e:HttpGet(_0x83d))()
+    local success, err = pcall(function()
+        _0xD4a(_0xG6e:HttpGet(_0x83d))()
+    end)
 
-    local _0x4be = (_0xA7f() - _0x91a) * 1000
-    _0xF3c(_0xE8b("[Bocchi Reworked] Loaded in %.2f ms", _0x4be))
+    if success then
+        local _0x4be = (_0xA7f() - _0x91a) * 1000
+        _0xF3c(_0xE8b("[Bocchi Reworked] Loaded in %.2f ms", _0x4be))
+    else
+        warn("[Bocchi Reworked] Load failed:", err)
+    end
+else
+    warn("[Bocchi Reworked] Unsupported game:", _0xG6e.PlaceId)
 end
