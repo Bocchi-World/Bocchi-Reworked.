@@ -18,7 +18,7 @@ _0xB2e(_0xC9d())
 local _0x72f = {
     [10611639] = "https://load.bocchireworked.xyz/games/aa.lua",
     [1537690962] = "https://load.bocchireworked.xyz/games/bss.lua",
-    [107573139811370] = "https://load.bocchireworked.xyz/games/crx.lua",
+    [7660436108] = "https://load.bocchireworked.xyz/games/crx.lua",
 }
 
 local _0x83d = _0x72f[_0xG6e.PlaceId]
