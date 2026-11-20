@@ -21,7 +21,8 @@ local _0x72f = {
     [7660436108] = "https://load.bocchireworked.xyz/games/crx.lua",
 }
 
-local _0x83d = _0x72f[_0xG6e.PlaceId]
+local _0x83d = _0x72f[_0xG6e.GameId]
+    or _0x72f[_0xG6e.PlaceId]
     or _0x72f[_0xG6e.CreatorId]
 
 if _0x83d then
