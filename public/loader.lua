@@ -19,6 +19,7 @@ local _0x72f = {
     [10611639] = "https://load.bocchireworked.xyz/games/aa.lua",
     [1537690962] = "https://load.bocchireworked.xyz/games/bss.lua",
     [7660436108] = "https://load.bocchireworked.xyz/games/crx.lua",
+    [10778033190] = "https://load.bocchireworked.xyz/games/championsx.lua",
 }
 
 local _0x83d = _0x72f[_0xG6e.GameId]
